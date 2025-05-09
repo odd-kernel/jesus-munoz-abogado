@@ -26,6 +26,11 @@ body {
     padding: 0 15px;
 }
 
+.container-services {
+    display: inline-flex;
+    overflow-x: auto;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
@@ -236,7 +241,7 @@ nav ul li a.active {
 
 .areas-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 30px;
     margin-bottom: 3rem;
 }
